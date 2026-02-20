@@ -1,0 +1,18 @@
+filters:
+  and:
+    - file.folder == "20_AREAS/Medicina/Morfo III/UNIDAD II - SISTEMA NERVIOSO"
+views:
+  - type: table
+    name: Tabla
+    filters:
+      and:
+        - file.folder == "20_AREAS/Medicina/Morfo III/UNIDAD II - SISTEMA NERVIOSO"
+    order:
+      - file.name
+    rowHeight: medium
+  - type: cards
+    name: Vista
+    order:
+      - file.name
+      - file.backlinks
+    cardSize: 390

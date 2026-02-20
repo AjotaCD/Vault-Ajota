@@ -1,0 +1,18 @@
+filters:
+  and:
+    - file.inFolder("30_RECURSOS/Diapositivas")
+views:
+  - type: cards
+    name: Tabla
+    order:
+      - file.name
+    image: file.file
+    cardSize: 140
+  - type: cards
+    name: Vista
+    cardSize: 400
+    image: file.file
+    imageAspectRatio: 0.8
+    imageFit: contain
+  - type: dash-memory-card-view
+    name: Vista 2

@@ -1,0 +1,49 @@
+{
+	"nodes":[
+		{"id":"2777e2de4b272f5a","type":"text","text":"Segunda neurona: Decusación en el asta posterior de la medula espinal, cruza al lado contrario, y sube por el cordón blanco anterior como tracto espinotalámico anterior","x":-168,"y":-100,"width":250,"height":231,"color":"2"},
+		{"id":"0b57fae90e2db28f","type":"text","text":"Segunda Neurona: Decusación en el asta posterior de la medula espinal, cruza al lado contrario y sube por el cordón blanco lateral hasta formar el lemnisco espinal en el tronco","x":-542,"y":-100,"width":250,"height":228,"color":"1"},
+		{"id":"4414520a70343b71","type":"text","text":"Corteza somatosensitiva primaria [[Tema 18 - Corteza cerebral (áreas funcionales)]]","x":259,"y":-540,"width":250,"height":160,"color":"4"},
+		{"id":"6241255a00482f26","type":"text","text":"Tercera neurona: Nucleo Ventral Posterolateral del tálamo","x":-168,"y":-300,"width":250,"height":84,"color":"4"},
+		{"id":"c997c4c4426d333f","type":"text","text":"Tercera neurona: Nucleo Ventral Posteromedial (VPM)","x":618,"y":-294,"width":250,"height":78,"color":"3"},
+		{"id":"be3e67f3ee4e82ae","type":"text","text":"Primera neurona: En el ganglio trigeminal (O de gasser)","x":620,"y":398,"width":250,"height":100,"color":"3"},
+		{"id":"de3f5c06c3c0ab35","type":"text","text":"Cruza la linea media y sube como Lemnisco Trigeminal","x":620,"y":-40,"width":250,"height":60,"color":"3"},
+		{"id":"59abb3bef4093453","type":"text","text":"Segunda neurona: Decusación en los nucleos grácil y cuneiforme en el bulbo raquídeo, aqui cruzan (Fibras arqueadas internas) y forman el lemnisco medial.","x":201,"y":-100,"width":250,"height":180,"color":"5"},
+		{"id":"8c0ec8c62ecb2600","type":"text","text":"Primera neurona: Entra y no cruza en la médula. Sube por el mismo lado formando los fasciculos gracil y cuneiforme.","x":201,"y":130,"width":250,"height":164,"color":"5"},
+		{"id":"96080ec6404d6a1b","type":"text","text":"Para tacto y presión, la segunda neurona está en el tracto sensitivo principal, en la protuberancia/puente","x":493,"y":158,"width":250,"height":164,"color":"3"},
+		{"id":"abb5e129bd789f9e","type":"text","text":"Para el dolor y la temperatura, la segunda neurona se encuentra en el Nervio Espinal del Trigémino, en el bulbo y la parte superior de la medula cervical","x":780,"y":158,"width":250,"height":165,"color":"3"},
+		{"id":"2e717788d340cb89","type":"text","text":"Vias de la cabeza y la cara (Nervio trigémino V par)","x":620,"y":577,"width":250,"height":60,"color":"3"},
+		{"id":"d1be46c1037686bf","type":"text","text":"Estimulo: Dolor, calor y frio. Equilibrio y Tono Muscular inconsciente","x":-542,"y":397,"width":250,"height":60,"color":"1"},
+		{"id":"3c5ea0283d655603","type":"text","text":"Via Espinotalámica Lateral","x":-540,"y":580,"width":250,"height":60,"color":"1"},
+		{"id":"8f6ef891c20d937a","type":"text","text":"Primera neurona: Ganglio de la raíz posterior (dorsal)","x":-360,"y":240,"width":250,"height":60,"color":"#f95448"},
+		{"id":"5607d9601a90b463","type":"text","text":"Estimulo: Tacto discriminativo (Epicritico), vibración, y posición articular consciente.","x":200,"y":357,"width":250,"height":111,"color":"5"},
+		{"id":"31b8acd698b11041","type":"text","text":"Estimulo: Tacto no discriminativo y presión","x":-202,"y":398,"width":250,"height":60,"color":"2"},
+		{"id":"1f30b116fd32ecd6","type":"text","text":"Sistema Cordón Posterior - Lemnisco Medial","x":201,"y":577,"width":250,"height":60,"color":"5"},
+		{"id":"94de55c81606f827","type":"text","text":"Via Espinotalámica Anterior","x":-202,"y":580,"width":250,"height":60,"color":"2"}
+	],
+	"edges":[
+		{"id":"9783036d6e2bd029","fromNode":"3c5ea0283d655603","fromSide":"top","toNode":"d1be46c1037686bf","toSide":"bottom"},
+		{"id":"9fb1efafc7cd8048","fromNode":"d1be46c1037686bf","fromSide":"top","toNode":"8f6ef891c20d937a","toSide":"bottom"},
+		{"id":"660d8c08268f56dd","fromNode":"8f6ef891c20d937a","fromSide":"top","toNode":"0b57fae90e2db28f","toSide":"bottom"},
+		{"id":"2b96b66e4533d674","toFloating":false,"fromNode":"0b57fae90e2db28f","fromSide":"top","toNode":"6241255a00482f26","toSide":"left"},
+		{"id":"a1b8be21d46a1494","toFloating":false,"fromNode":"6241255a00482f26","fromSide":"top","toNode":"4414520a70343b71","toSide":"bottom"},
+		{"id":"425bc019c7e03596","fromNode":"94de55c81606f827","fromSide":"top","toNode":"31b8acd698b11041","toSide":"bottom"},
+		{"id":"e6826266b265e911","fromNode":"31b8acd698b11041","fromSide":"top","toNode":"8f6ef891c20d937a","toSide":"bottom"},
+		{"id":"c96bf02d6cbb2e4c","fromNode":"8f6ef891c20d937a","fromSide":"top","toNode":"2777e2de4b272f5a","toSide":"bottom"},
+		{"id":"e3ac05aff1fdf1c8","fromNode":"2777e2de4b272f5a","fromSide":"top","toNode":"6241255a00482f26","toSide":"bottom"},
+		{"id":"ec5a50c38bba42ef","fromNode":"1f30b116fd32ecd6","fromSide":"top","toNode":"5607d9601a90b463","toSide":"bottom"},
+		{"id":"e8d4ef529c7c4d78","fromNode":"5607d9601a90b463","fromSide":"top","toNode":"8c0ec8c62ecb2600","toSide":"bottom"},
+		{"id":"331c7ed56773c8d8","fromFloating":false,"fromNode":"8c0ec8c62ecb2600","fromSide":"top","toNode":"59abb3bef4093453","toSide":"bottom"},
+		{"id":"af361541ee093077","fromNode":"59abb3bef4093453","fromSide":"top","toNode":"6241255a00482f26","toSide":"right"},
+		{"id":"a2bdb0d98998b3fe","fromNode":"2e717788d340cb89","fromSide":"top","toNode":"be3e67f3ee4e82ae","toSide":"bottom"},
+		{"id":"89d9e6d1a6fe6fd9","fromNode":"be3e67f3ee4e82ae","fromSide":"top","toNode":"abb5e129bd789f9e","toSide":"bottom"},
+		{"id":"c10236d0520d7384","fromNode":"abb5e129bd789f9e","fromSide":"top","toNode":"de3f5c06c3c0ab35","toSide":"bottom"},
+		{"id":"9f1cc54e7af48a0d","fromNode":"de3f5c06c3c0ab35","fromSide":"top","toNode":"c997c4c4426d333f","toSide":"bottom"},
+		{"id":"409bf94bd3930022","fromNode":"c997c4c4426d333f","fromSide":"top","toNode":"4414520a70343b71","toSide":"bottom"},
+		{"id":"6ec0a087e887e86d","fromNode":"be3e67f3ee4e82ae","fromSide":"top","toNode":"96080ec6404d6a1b","toSide":"bottom"},
+		{"id":"d75bdd2755b264b7","fromNode":"96080ec6404d6a1b","fromSide":"top","toNode":"de3f5c06c3c0ab35","toSide":"bottom"}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}
